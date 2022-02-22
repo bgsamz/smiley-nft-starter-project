@@ -89,6 +89,31 @@
   font-weight: bold;
 }
 
+.modal {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%; 
+  margin-left: -250px;
+  margin-top: -250px;
+  overflow: hidden;
+  /* border: solid 5px #808080; */
+  background: transparent;
+  border-radius: 5px;
+}
+
+.modal-img {
+  /* width: 250px;
+  height: 250px; */
+  position: absolute;
+  height: 100%; 
+  width: 100%; 
+  object-fit: contain
+  /* left: 50%;
+  top: 50%;  */
+}
+
 /* KeyFrames */
 @-webkit-keyframes gradient-animation {
   0% {
