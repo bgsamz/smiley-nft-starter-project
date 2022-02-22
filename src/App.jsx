@@ -206,15 +206,12 @@ const App = () => {
               currentAccount === "" || !onRightChain
               ? (renderNotConnectedContainer()) 
               : (
-                  <button onClick={askContractToMintNft} disabled={!onRightChain} className="cta-button connect-wallet-button">
+                  <button onClick={askContractToMintNft} disabled={!onRightChain} className="cta-button mint-button">
                     Mint NFT
                   </button>
               )
             }
           </div>
-              <button onClick={openModal} className="cta-button connect-wallet-button">
-                    TEST MODAL
-                  </button>
           <div className="center-container">
             {
             <a href={OPENSEA_LINK}>
